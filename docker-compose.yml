@@ -1,0 +1,30 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    depends_on:
+      - db
+      - cache
+    environment:
+      DATABASE_URL: postgres://currency:11111111@db:5432/db_currency
+      REDIS_URL: redis://cache:6379/0
+
+  db:
+    image: postgres:13
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: currency
+      POSTGRES_PASSWORD: 11111111
+      POSTGRES_DB: db_currency
+
+  cache:
+    image: redis:6
+    volumes:
+      - redis_data:/data
+
+volumes:
+  postgres_data:
+  redis_data:

@@ -1,0 +1,11 @@
+{
+    "form_data": {
+    "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjU5MmZjODdlLTU4NzctNDk4Mi1hNWE5LTI4NTdkZmI3ZmE2NSIsImV4cCI6MTcwOTczNjEzN30.Tnj0LrW5iHHlgvXUx-P_QJ7lxGtXmx3N99ob8XJd2KA",
+    "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjU5MmZjODdlLTU4NzctNDk4Mi1hNWE5LTI4NTdkZmI3ZmE2NSIsImV4cCI6MTcxMDMzOTEzNywiYWNjZXNzX3Rva2VuIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBaQ0k2SWpVNU1tWmpPRGRsTFRVNE56Y3RORGs0TWkxaE5XRTVMVEk0TlRka1ptSTNabUUyTlNJc0ltVjRjQ0k2TVRjd09UY3pOakV6TjMwLlRuajBMclc1aUhIbGd2WFV4LVBfUUo3bHhHdFhteDNOOTlvYjhYSmQyS0EifQ.Wsb2gr9tqfyQ0BSKFDxPl9gBXHrgnWFEYKquQKWK6h8",
+    "token_type": "bearer"
+  },
+    "data_carrency": {
+      "name": "Долары",
+      "code": "uSd"
+    }
+  }
